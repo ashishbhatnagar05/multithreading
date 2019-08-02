@@ -1,8 +1,13 @@
-package advance.lockimplementation;
+package advance.simplelockimplementation;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Below is a simple lock implementation Below implementation is not fair as all the threads keeps
+ * waiting till their turn. It could happeen that a thread never gets its turn. This needs
+ * improvement
+ */
 public class LockImplementationExample {
   public static void main(String[] args) {
     ExecutorService service = Executors.newCachedThreadPool();

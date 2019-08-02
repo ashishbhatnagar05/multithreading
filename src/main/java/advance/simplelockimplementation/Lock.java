@@ -1,4 +1,4 @@
-package advance.lockimplementation;
+package advance.simplelockimplementation;
 
 /** Below is an implementation of a simple lock */
 public class Lock {
