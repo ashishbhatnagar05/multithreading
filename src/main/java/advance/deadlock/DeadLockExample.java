@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
  * and how it occurs in multithreading. Shared is a class having two sharable instance variable a and
  * b both thread have access to these two variables Thread 1 access a and try to access b, but
  * thread a already has access to b,hence the deadlock.This could be prevented: 1- make method take
- * lock in same order 2--Lock timeout 3-- deadlock detection
+ * lock in same order 2--NestedLockExample timeout 3-- deadlock detection
  */
 public class DeadLockExample {
 
